@@ -12,8 +12,8 @@ from nltk.stem import PorterStemmer
 import textblob
 from textblob import TextBlob
 from textblob import Word
-# train = pd.read_csv('./Hoteldata.csv', low_memory=False)
-train = pd.read_csv('./sampleData.csv', low_memory=False)
+# train = pd.read_csv('./Hoteldata.csv', low_memory=False) # giving ZeroDivisionError - line 136
+train = pd.read_csv('./Inputs/sampleData.csv', low_memory=False)
 
 
 

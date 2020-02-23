@@ -1,0 +1,12 @@
+# ./Outputs/
+# ./Inputs/
+
+#ignore the following folders
+
+Outputs/
+Inputs/
+.vscode/
+
+#ignore the following files
+
+# *.pyc
